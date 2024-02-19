@@ -4,8 +4,7 @@
     <img src="https://github.com/SELSHA-CS/tourism_ui_clone/assets/142321043/880c5b81-0cf5-4422-b73f-db67158cf4b0" alt="Screenshot 3" width="30%">
     <img src="https://github.com/SELSHA-CS/tourism_ui_clone/assets/142321043/97f3e620-3d7a-4e8f-9786-15b28605317c" alt="Screenshot 4" width="30%">
     <img src="https://github.com/SELSHA-CS/tourism_ui_clone/assets/142321043/46d8b5ac-9a0f-4bc5-83aa-55c72d1a2d78" alt="Screenshot 5" width="30%">
-    <img src="" alt="Screenshot 6" width="30%">
-    <img src="" alt="Screenshot 6" width="30%">
+    <img src="https://github.com/SELSHA-CS/tourism_ui_clone/assets/142321043/532726ee-601c-4a92-a58a-8ef8d0bd1897" alt="Screenshot 6" width="30%">
 </div>
 
 # whatsapp_ui_clone
