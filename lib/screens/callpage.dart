@@ -10,7 +10,7 @@ class CallPage extends StatelessWidget {
     return Scaffold(
       body: ListView(
         children: [
-          ListTile(
+          const ListTile(
             leading: CircleAvatar(
               radius: 20,
               backgroundColor: Colors.green,
@@ -19,7 +19,7 @@ class CallPage extends StatelessWidget {
             title: Text("Create a call link"),
             subtitle: Text("Share a link for your WhatsApp call"),
           ),
-          SizedBox(height: 10,),
+          const SizedBox(height: 10,),
           Padding(
             padding: const EdgeInsets.all(10.0),
             child: Text("Recent", style: GoogleFonts.poppins(fontSize: 18)),
@@ -42,8 +42,8 @@ class CallPage extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
           onPressed: (){}, 
-          backgroundColor: Color(0xFF075E54),
-          child: Icon(Icons.add_call, color: Colors.white,),
+          backgroundColor: const Color(0xFF075E54),
+          child: const Icon(Icons.add_call, color: Colors.white,),
         ),
     );
   }

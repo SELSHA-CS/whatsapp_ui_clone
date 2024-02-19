@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:whatsapp_ui_clone/screens/dummydata.dart';
 
 class CommunityScreen extends StatelessWidget {
   const CommunityScreen({super.key});
@@ -11,12 +10,12 @@ class CommunityScreen extends StatelessWidget {
       body: Stack(
         children: [
           Positioned(
-            top: 100,
-            left: 60,
+            top: 90,
+            left: 70,
             child: Container(
               height: 250,
               width: 250,
-              decoration: BoxDecoration(
+              decoration: const BoxDecoration(
                 image: DecorationImage(
                   image: AssetImage("assets/images/comm.png"),
                   //fit: BoxFit.cover,
@@ -57,7 +56,7 @@ class CommunityScreen extends StatelessWidget {
             left: 85,
             child: TextButton(
               onPressed: () {},
-              child: Row(
+              child: const Row(
                 children: [
                   Text(
                     "See example communities",
@@ -73,13 +72,13 @@ class CommunityScreen extends StatelessWidget {
             left: 80,
             child: MaterialButton(
               onPressed: () {},
-              color: Color(0xFF075E54),
+              color: const Color(0xFF075E54),
               minWidth: 200,
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(25)
               ),
               height: 50,
-              child: Text(
+              child: const Text(
                 "Start your community",
                 style: TextStyle(color: Colors.white),
               ),

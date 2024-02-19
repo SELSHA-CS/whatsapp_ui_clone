@@ -9,7 +9,9 @@ class ChatScreen extends StatelessWidget {
     return Scaffold(
       body: ListView(
         children: profiles.map((profile) => InkWell(
-          onTap: (){},
+          onTap: (){
+            Navigator.pushNamed(context, 'chatpage', arguments: profile["id"]);
+          },
           child: Card(
             elevation: 5,
             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5)),
@@ -23,10 +25,12 @@ class ChatScreen extends StatelessWidget {
               trailing: Column(
                 children: [
                   Text(profile["time"]),
-                  CircleAvatar(
-                    radius: 15,
-                    backgroundColor: Color(0xFF25D366),
-                    child: Text("${profile["mno"]}"),
+                  Expanded(
+                    child: CircleAvatar(
+                      radius: 15,
+                      backgroundColor: const Color(0xFF25D366),
+                      child: Text("${profile["mno"]}"),
+                    ),
                   )
                 ],
               ),
@@ -36,8 +40,8 @@ class ChatScreen extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
           onPressed: (){}, 
-          backgroundColor: Color(0xFF075E54),
-          child: Icon(Icons.message, color: Colors.white,),
+          backgroundColor: const Color(0xFF075E54),
+          child: const Icon(Icons.message, color: Colors.white,),
         ),
     );
   }

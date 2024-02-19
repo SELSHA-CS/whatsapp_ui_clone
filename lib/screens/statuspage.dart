@@ -17,22 +17,25 @@ class _StatusPageState extends State<StatusPage> {
         crossAxisAlignment: CrossAxisAlignment.start,
         mainAxisSize: MainAxisSize.min,
         children: [
-          ListTile(
-            leading: CircleAvatar(
-              radius: 25,
-              backgroundImage: AssetImage("assets/images/p1.jpg"),
-              child: Stack(
-                children: [
-                  Positioned(
-                    top: 32,
-                    left: 30,
-                    child: CircleAvatar(
-                      radius: 10,
-                      backgroundColor: Colors.green,
-                      child: Icon(Icons.add),
-                    ),
-                  )
-                ],
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: ListTile(
+              leading: CircleAvatar(
+                radius: 25,
+                backgroundImage: AssetImage("assets/images/p1.jpg"),
+                child: Stack(
+                  children: [
+                    Positioned(
+                      top: 32,
+                      left: 30,
+                      child: CircleAvatar(
+                        radius: 10,
+                        backgroundColor: Colors.green,
+                        child: Icon(Icons.add, size: 20,),
+                      ),
+                    )
+                  ],
+                ),
               ),
             ),
           ),
