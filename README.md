@@ -1,6 +1,6 @@
 <div style="display:flex; justify-content:space-between;">
     <img src="https://github.com/SELSHA-CS/tourism_ui_clone/assets/142321043/51e936aa-fb7c-4272-8520-0854c1fd4387" alt="Screenshot 1" width="30%">
-    <img src="https://github.com/SELSHA-CS/tourism_ui_clone/assets/142321043/1d2220a8-70b3-4b5b-92bb-9b69f5b1cbf8" alt="Screenshot 2" width="30%">
+    <img src="https://github.com/SELSHA-CS/whatsapp_ui_clone/assets/142321043/19a54290-c18d-4174-9791-0dda4c1e5e93" alt="Screenshot 2" width="30%">
     <img src="https://github.com/SELSHA-CS/tourism_ui_clone/assets/142321043/880c5b81-0cf5-4422-b73f-db67158cf4b0" alt="Screenshot 3" width="30%">
     <img src="https://github.com/SELSHA-CS/tourism_ui_clone/assets/142321043/97f3e620-3d7a-4e8f-9786-15b28605317c" alt="Screenshot 4" width="30%">
     <img src="https://github.com/SELSHA-CS/tourism_ui_clone/assets/142321043/46d8b5ac-9a0f-4bc5-83aa-55c72d1a2d78" alt="Screenshot 5" width="30%">
