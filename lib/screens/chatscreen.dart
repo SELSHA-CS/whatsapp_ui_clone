@@ -22,17 +22,20 @@ class ChatScreen extends StatelessWidget {
               ),
               title: Text(profile["name"]),
               subtitle: Text(profile["msg"]),
-              trailing: Column(
-                children: [
-                  Text(profile["time"]),
-                  Expanded(
-                    child: CircleAvatar(
-                      radius: 15,
-                      backgroundColor: const Color(0xFF25D366),
-                      child: Text("${profile["mno"]}"),
-                    ),
-                  )
-                ],
+              trailing: SizedBox(
+                height: 100, width: 60,
+                child: Column(
+                  children: [
+                    Text(profile["time"]),
+                    Expanded(
+                      child: CircleAvatar(
+                        radius: 15,
+                        backgroundColor: const Color(0xFF25D366),
+                        child: Text("${profile["mno"]}"),
+                      ),
+                    )
+                  ],
+                ),
               ),
             ),
           ),

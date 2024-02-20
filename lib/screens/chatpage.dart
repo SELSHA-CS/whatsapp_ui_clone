@@ -12,9 +12,9 @@ class ChatPage extends StatelessWidget {
     final chat = profiles.firstWhere((element) => element['id'] == chatId);
 
     return Scaffold(
-      backgroundColor: Color(0xFFECE5DD),
+      backgroundColor: const Color(0xFFECE5DD),
       appBar: AppBar(
-        backgroundColor: Color(0xFF075E54),
+        backgroundColor: const Color(0xFF075E54),
         title: Wrap(
           alignment: WrapAlignment.center,
           spacing: 15,
@@ -23,24 +23,24 @@ class ChatPage extends StatelessWidget {
               backgroundImage: AssetImage(chat['image']),
               radius: 20,
             ),
-            Text(chat['name'], style: TextStyle(color: Colors.white),)
+            Text(chat['name'], style: const TextStyle(color: Colors.white),)
           ],
         ),
         actions: [
-          FaIcon(FontAwesomeIcons.video, color: Colors.white,),
-          SizedBox(width: 20,),
-          Icon(Icons.call, color: Colors.white,),
+          const FaIcon(FontAwesomeIcons.video, color: Colors.white,),
+          const SizedBox(width: 20,),
+          const Icon(Icons.call, color: Colors.white,),
           PopupMenuButton(
-            icon: Icon(Icons.more_vert),
+            icon: const Icon(Icons.more_vert),
             iconColor: Colors.white,
             itemBuilder: (context){
               return [
-                PopupMenuItem(child: Text("View contact")),
-                PopupMenuItem(child: Text("Media, links, and docs")),
-                PopupMenuItem(child: Text("Mute notifications")),
-                PopupMenuItem(child: Text("Disappearing messages")),
-                PopupMenuItem(child: Text("Wallpaper")),
-                PopupMenuItem(child: Row(
+                const PopupMenuItem(child: Text("View contact")),
+                const PopupMenuItem(child: Text("Media, links, and docs")),
+                const PopupMenuItem(child: Text("Mute notifications")),
+                const PopupMenuItem(child: Text("Disappearing messages")),
+                const PopupMenuItem(child: Text("Wallpaper")),
+                const PopupMenuItem(child: Row(
                   mainAxisSize: MainAxisSize.min,
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
@@ -70,19 +70,19 @@ class ChatPage extends StatelessWidget {
                     border: InputBorder.none,
                     enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(20),
-                      borderSide: BorderSide(color: Colors.transparent)
+                      borderSide: const BorderSide(color: Colors.transparent)
                     ),
                   ),
                 ),
               ),
             ),
           ),
-          Positioned(
+          const Positioned(
             left: 17,
             bottom: 35,
             child: FaIcon((FontAwesomeIcons.faceLaugh), size: 25, color: Colors.grey,)
           ),
-          Positioned(
+          const Positioned(
             left: 220,
             bottom: 35,
             child: Row(
@@ -95,7 +95,7 @@ class ChatPage extends StatelessWidget {
               ],
             ),
           ),
-          Positioned(
+          const Positioned(
             bottom: 20,
             right: 5,
             child: CircleAvatar(
